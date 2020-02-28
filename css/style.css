@@ -3,8 +3,16 @@ body {
     font-family: 'Poppins';
 }
 
-h1 p{
-    padding-bottom: 5px;
+p {
+    color: dimgray;
+}
+
+.top-section h1 {
+    padding-bottom: 20px;
+}
+
+.top-section p {
+    padding-bottom: 20px;
 }
 
 .container {
@@ -22,5 +30,23 @@ h1 p{
     color:#F22E79;
     font-size: 40px;
     font-weight: bolder;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #F767A6,#F2045F);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.top-section {
+    background-image: url('/img/header-bg.png');
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 1000px;
+    padding-bottom: 150px;
 }
 
