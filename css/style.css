@@ -3,6 +3,11 @@ body {
     font-family: 'Poppins';
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
 p {
     color: dimgray;
 }
@@ -12,7 +17,7 @@ p {
 }
 
 .top-section p {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .container {
@@ -29,7 +34,7 @@ p {
 .name-highlight {
     color:#F22E79;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .button {
@@ -47,6 +52,16 @@ p {
 
 section {
     height: 1000px;
-    padding-bottom: 150px;
+    padding: 35px;
+    
+}
+
+.mid1-section p {
+    padding-bottom: 30px;
+}
+
+.mid1-section {
+    background-image: url('/img/biography-bg.png');
+    background-repeat: no-repeat;
 }
 
