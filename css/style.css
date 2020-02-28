@@ -12,6 +12,7 @@ p {
     color: dimgray;
 }
 
+/* Styling for top section */
 .top-section h1 {
     padding-bottom: 20px;
 }
@@ -52,16 +53,44 @@ p {
 
 section {
     height: 1000px;
-    padding: 35px;
+    padding-bottom: 35px;
     
 }
 
+/* Mid1 styling */
 .mid1-section p {
     padding-bottom: 30px;
 }
 
 .mid1-section {
     background-image: url('/img/biography-bg.png');
+    background-repeat: no-repeat;
+}
+
+
+/* Mid2 styling */
+
+section .mid2-section {
+    height: 100px;
+}
+
+.mid2-section h1 {
+    text-align: center;
+}
+
+.whole-container {
+    padding: 70px;
+}
+
+.container2 img {
+    width: 30%;
+    float: left;
+    margin: 0.5%;
+    padding: 1%;
+}
+
+.mid2-section {
+    background-image: url('/img/latest-work-bg.png');
     background-repeat: no-repeat;
 }
 
