@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+h1 p{
+    padding-bottom: 5px;
+}
+
+.container {
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+
+.container img {
+    width: 100%;
+}
+
+.name-highlight {
+    color:#F22E79;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
