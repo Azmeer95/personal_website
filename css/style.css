@@ -8,6 +8,18 @@ h1 {
     font-weight: 600;
 }
 
+h4 {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+h6 {
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+
 p {
     color: dimgray;
 }
@@ -52,8 +64,8 @@ p {
 }
 
 section {
-    height: 1000px;
-    padding-bottom: 35px;
+    height: 900px;
+    padding-bottom: 110px;
     
 }
 
@@ -70,8 +82,8 @@ section {
 
 /* Mid2 styling */
 
-section .mid2-section {
-    height: 100px;
+.mid2-section {
+    padding-bottom: 20px;
 }
 
 .mid2-section h1 {
@@ -93,4 +105,53 @@ section .mid2-section {
     background-image: url('/img/latest-work-bg.png');
     background-repeat: no-repeat;
 }
+
+/* Bottom section */
+
+.bottom-section h1, h4, h6, p{
+    text-align: center;
+}
+
+.bottom-section h6 {
+    color: lightslategray;
+}
+
+.main-button {
+    background-image: linear-gradient(45deg, #F767A6,#F2045F);
+    width: 250px;
+    margin-top: 100px;
+    position: relative;
+    left: 665px;
+    border-radius: 10px;
+    padding: 30px 170px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.main-button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+    right: 37px;
+}
+
+.main-button p {
+    color: #fff;
+    
+}
+
+.bottom-section {
+    background-image: url('/img/footer-bg.png');
+    background-repeat: no-repeat;
+   
+}
+.foot p {
+    text-align: center;
+    
+}
+
+
 
